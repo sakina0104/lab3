@@ -1,0 +1,11 @@
+import math
+x=0,9
+E=0,001
+s=1
+n=3
+k=x**n / math.factorial(n)
+while x >= epsilon:
+  s+=1
+  n+=2
+  k=x**n/math.factorial(n)
+print(s)
